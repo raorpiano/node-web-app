@@ -5,9 +5,13 @@
   "author": "Roy Orpiano <raorpiano@gmail.com>",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha"
   },
   "dependencies": {
     "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0"
   }
 }
